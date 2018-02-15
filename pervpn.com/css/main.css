@@ -1,0 +1,386 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+}
+header{
+  background: url(../img/backgroundbanner.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: -100px;
+  padding-bottom: 300px;
+    }
+/*Topbar*/
+
+.topbar{
+  background: black;
+  width: 100%;
+}
+.topbar ul{
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+.topbar li{
+  display: inline-block;
+  color: white;
+}
+.topbar li:nth-child(2){
+  font-size: 17px;
+  padding: 0 25px;
+}
+.topbar li a{
+  padding: 15px;
+  color: white;
+  font-size: 12px;
+  letter-spacing: .5px;
+  text-decoration: none;
+}
+/*NavMenu*/
+nav ul{
+  float: right;
+}
+
+.top{
+  top: 15px;
+}
+.logo{
+float: left;
+}
+nav img{
+   padding: 15px 0;
+}
+nav ul li{
+  display: inline-block;
+  padding: 25px 10px;
+}
+/*Get Started*/
+nav ul{
+display: inline-block;
+}
+nav ul li:nth-child(4){
+  background-color: white;
+  padding: 10px 60px;
+  border: .5px solid white;
+  border-radius: 5px;
+  transition: .5s;
+}
+nav ul li:nth-child(4):hover{
+  background-color: blue;
+  transition: .5s;
+}
+nav ul li:nth-child(4) a{
+  color: black;
+  transition: .5s;
+}
+nav ul li:nth-child(4) a:hover{
+  color: white;
+  transition: .5s;
+}
+nav ul li:last-child{
+  display: none;
+}
+@media screen and (max-width: 996px){
+  nav ul li{
+    display: none;
+  }
+  nav ul li:last-child{
+    display: inline-block;
+  }
+   }
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+nav ul li a:hover{
+  text-decoration: none;
+  color: white;
+}
+/*Header Article*/
+header article{
+  text-align: center;
+  color: white;
+}
+header article h1{
+  margin: 130px 0 0 0;
+font-size: 35px;
+}
+header article p{
+  margin: 5px 0 0 0 ;
+  font-size: 18px;
+}
+.TermGrowth{
+  margin: 50px 0 0 0;
+}
+.TermGrowth div:first-child{
+  text-align: right;
+}
+.TermGrowth div:last-child{
+  text-align: left;
+}
+header article a{
+  display: inline-block;
+  padding: 18px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+.rightbutton{
+  background-color: transparent;
+  color: white;
+}
+header article a:hover{
+  text-decoration: none;
+}
+@media screen and (max-width: 780px){
+  header article a{
+    font-size: 10px;
+    display: inline-block;
+    padding: 14px 18px;
+      }
+   }
+/*Offerts */
+   .margimminus{
+     margin-top: -230px;
+   }
+.mostpop{
+background: green;
+color: white;
+border-radius: 5px 5px 0 0;
+}
+.TryUs div{
+  padding: 20px;
+  font-size: 16px;
+  background: white;
+  color: black;
+  border: 1px solid lightgray;
+}
+.TryUs h3{
+  font-size: 25px;
+  margin: 45px 0 20px 0;
+}
+.TryUs .central h3{
+  margin: 20px 0 20px 0;
+}
+@media screen and (max-width: 766px){
+  .display{
+    display: none;
+  }
+  }
+section.OurOfferts div{
+  text-align: center;
+}
+.OurOfferts a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: green;
+  padding: 14px 18px;
+  border-radius: 5px;
+  transition: .5s;
+}
+.OurOfferts a:hover{
+  background: darkgreen;
+  transition: .5s;
+}
+.central{
+  z-index: 2;
+  box-shadow: 0 0 100px 0 rgba(0,0,0,0.1);
+  border-bottom: none !important;
+}
+.central a{
+  margin-bottom: 50px;
+}
+ .empty{
+   background: white;
+   z-index: 2;
+   border-top: none !important;
+   border: 1px solid lightgray;
+   border-radius: 0 0 5px 5px;
+   padding-top: 20px;
+ }
+ .starter a{
+   display: inline-block;
+   margin-right: -5px !important;
+   border-radius: 0px;
+   border: 1px solid green;
+ }
+.starter a:first-of-type{
+  padding: 14px 30px 14px 30px;
+  color: green;
+  border-radius: 5px 0 0 5px;
+  background: white;
+  transition: .5s;
+}
+.starter a:last-of-type{
+  border-radius: 0 5px 5px 0;
+}
+.starter a:first-of-type:hover{
+  color: lightgreen;
+  transition: .5s;
+}
+.OffertDescription{
+  text-align: center;
+}
+.OffertDescription li{
+  list-style: none;
+  font-size: 20px;
+  padding: 16px;
+}
+.OffertDescription ul.center{
+  padding-top: 20px;
+}
+.border{
+  border: 1px solid lightgray;
+}
+/*Payments*/
+.payment h4{
+  font-size: 20px;
+  padding: 15px;
+  text-align: left;
+  color: gray;
+}
+.methods div{
+  text-align: left;
+  background: #f7f6f5;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.view-source a{
+  padding: 6px;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.view-source b{
+  margin-left: 12px;
+  vertical-align: top;
+  line-height: 35px;
+}
+.pay{
+  display: inline-block;
+  height: 30px;
+  margin-left: 35px;
+}
+.pay1{
+  background: url(../img/stripelogos.jpg) no-repeat left center;
+  width: 188px;
+}
+.pay2{
+  background: url(../img/spritecart.png) no-repeat left top;
+  width: 46px;
+}
+.pay3{
+  background: url(../img/spritecart.png) no-repeat;
+  background-position: 0 -145px;
+  width: 46px;
+}
+.pay4{
+  background: url(../img/cart-img-33.png) no-repeat left top;
+  width: 566px;
+}
+.pay5{
+  background: url(../img/36073-cart-coins.png) no-repeat left top;
+  width: 405px;
+}
+.pay6{
+  background: url(../img/spritecart.png) no-repeat;
+  background-position: 0 -218px;
+  width: 46px;
+}
+.pay7{
+  background: url(../img/cart-img-2.jpg) no-repeat;
+  width: 466px;
+}
+.McAfee{
+  border: none;
+  background: white;
+}
+.McAfee img{
+  float: left;
+  padding-right: 20px;
+}
+.McAfee p{
+  color: lightgray;
+  font-size: 15px;
+}
+@media screen and (max-width: 992px){
+  .pay{
+    display: none;
+  }
+  }
+/*Reviews and recomendations*/
+.reviews{
+  background: #c2f6ff;
+  text-align: center;
+}
+.reviews p{
+  margin-top: 20px;
+  color: gray;
+}
+.ContactUs{
+  background: url(../img/business-best-vpn-bg.jpg) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.ContactUs p{
+  font-size: 18px;
+}
+/*DicoverMore*/
+.DiscoverMore{
+  text-align: center;
+  background: #e2fffd;
+}
+.DiscoverMore p{
+  font-size: 20px;
+  padding-top: 10px;
+}
+.getStarted a{
+  align-self: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background: green;
+  padding: 14px 18px;
+  border-radius: 5px;
+  transition: .5s;
+  box-shadow: 0 0 100px 0 rgba(0,0,0,0.2);
+}
+.getStarted a:hover{
+  background: darkgreen;
+  transition: .5s;
+}
+/*footer*/
+footer{
+  text-align: left;
+  background: #faf6f2;
+}
+footer ul{
+  font-size: 18px;
+  color: #151516;
+}
+footer ul li{
+  font-size: 14px;
+  display: block;
+  padding: 5px 5px 5px 0;
+  list-style: none;
+}
+footer ul li:first-child{
+  margin-top: 15px;
+}
+footer ul li a{
+  color: #151515;
+  transition: .5s;
+}
+footer ul li a:hover{
+  text-decoration: none;
+  color: black;
+  transition: .5s;
+}
